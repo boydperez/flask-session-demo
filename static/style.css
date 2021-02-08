@@ -1,0 +1,135 @@
+:root {
+    --grey: #314e52;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f9fcfb;
+}
+#container {
+    background-color: inherit; 
+}
+
+/* index.html */
+.form-link {
+    text-align: center;
+}
+.form-link h4 {
+    font-size: 1.6em;
+    color: var(--grey);
+}
+.form-link h4:first-child {
+    margin: 100px auto 50px auto;
+}
+.form-link a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.form-container {
+    /* background-color: lightgray; */
+    width: 30%;
+    margin: auto;
+    padding-left: 150px;
+}
+.form-container h3 {
+    margin: 55px 0 70px 0;
+    font-size: 2rem;
+    color: var(--grey);
+}
+.form-field {
+    margin: 20px 0 40px 0;
+}
+label {
+    display: block;
+    margin-bottom: 14px;
+    font-size: 1.2rem;
+    color: var(--grey);
+}
+input {
+    border: 0;
+    display: block;
+    width: 300px;
+    height: 24px;
+    padding: 3px 0 3px 5px;
+    color: #aaaaaa;
+    background-color: #e7e6e1;
+    font-size: 0.9rem;
+    border: none;
+}
+input[type=text]:focus, input[type=password]:focus {
+    outline: 1.9px solid #ece68a;
+}
+.form-btn {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    height: 34px;
+    color: var(--grey);
+    background-color: #f7f6e7;
+    outline: none;
+}
+.form-btn:hover {
+    background-color: #f1ec9b;
+}
+
+
+/* home.html */
+.home-container {
+    display: flex;
+    margin: 20px 20px auto 20px;
+    color: var(--grey);
+    align-items: center;
+}
+
+.home-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home-container img {
+    width: 50px;
+    height: 50px;
+}
+
+.home-container img { 
+    margin-right: 10px;
+}
+
+.home-container h3:last-child {
+    margin-left: auto;
+}
+
+.home-container h3:last-child:hover {
+    color: #cb3737;
+}
+
+.force-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.force-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.force-container h3 {
+    margin-bottom: 30px;    
+    color: #ff9d72;
+    font-size: 1.6em;
+}
+
+.force-container p {
+    padding: 10px;
+    color: var(--grey);
+    font-size: 1em;
+}
+
+.force-container p:hover {
+    color: black;
+}

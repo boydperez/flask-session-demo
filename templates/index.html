@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    <title>Welcome</title>
+{% endblock %}
+
+{% block content %}
+    <div class="form-link">
+        <h4><a href="{{ url_for('signup') }}">Register here</a></h4> 
+        <h4><a href="{{ url_for('login') }}">Login</a></h4>
+    </div>
+{% endblock %}

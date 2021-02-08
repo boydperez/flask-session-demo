@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    <title>Home</title>
+{% endblock %}
+
+{% block script %}
+    <script src="{{ url_for('static', filename='scripts/script.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="home-container">
+        <img src="{{ url_for('static', filename='/images/profile.png') }}" alt="">
+        <h3><span id="greetings"></span>, {{ user }}</h3>
+        <h3><a href="{{ url_for('logout') }}">Logout</a></h3>
+    </div>
+{% endblock %}

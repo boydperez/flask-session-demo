@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    <title>Login</title>
+{% endblock %}
+
+{% block content %}
+    <form action="" method="POST" class="form-container" autocomplete="off">
+        <h3>Sign into your account</h3>
+        <div class="form-field">
+            <label for="">Username</label>
+            <input type="text" name="username">
+        </div>
+        <div class="form-field">
+            <label for="">Password</label>
+            <input type="password" name="passwd">
+        </div>
+        <div class="form-field">
+            <input type="submit" class="form-btn" value="LOGIN">
+        </div>
+    </form>
+{% endblock %}

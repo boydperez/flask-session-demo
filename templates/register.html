@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    <title>Register</title>
+{% endblock %}
+
+{% block content %}
+    <form action="" method="POST" class="form-container" autocomplete="off">
+        <h3>Create an Account</h3>
+        <div class="form-field">
+            <label for="">Username</label>
+            <input type="text" name="username">
+        </div>
+        <div class="form-field">
+            <label for="">Password</label>
+            <input type="password" name="passwd">
+        </div>
+        <div class="form-field">
+            <label for="">Confirm password</label>
+            <input type="password" name="confirmPasswd">
+        </div>
+        <div class="form-field">
+            <input type="submit" class="form-btn" value="REGISTER">
+        </div>
+    </form>
+
+    {% if message %}
+        <h4>{{ message }}</h4>
+    {% endif %}
+{% endblock %}
