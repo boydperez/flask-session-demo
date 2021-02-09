@@ -5,7 +5,6 @@ from datetime import timedelta
 
 from validate import Validate
 
-# TODO: Create venv
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "skdfjewif38rf3rirhfn2f9hp23f"
