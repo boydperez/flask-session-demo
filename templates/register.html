@@ -22,7 +22,10 @@
         <div class="form-field">
             <input type="submit" class="form-btn" value="REGISTER">
         </div>
+
+        <p>Already have an account? <a href="{{ url_for('login') }}">Sign in</a></p>
     </form>
+    
 
     {% if message %}
         <h4>{{ message }}</h4>

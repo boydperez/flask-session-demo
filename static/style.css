@@ -1,6 +1,7 @@
 :root {
     --grey: #314e52;
 }
+
 * {
     padding: 0;
     margin: 0;
@@ -9,6 +10,7 @@
 body {
     background-color: #f9fcfb;
 }
+
 #container {
     background-color: inherit; 
 }
@@ -17,40 +19,46 @@ body {
 .form-link {
     text-align: center;
 }
+
 .form-link h4 {
     font-size: 1.6em;
     color: var(--grey);
 }
+
 .form-link h4:first-child {
     margin: 100px auto 50px auto;
 }
+
 .form-link a {
     text-decoration: none;
     color: inherit;
 }
 
-
-
 .form-container {
-    /* background-color: lightgray; */
-    width: 30%;
-    margin: auto;
-    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .form-container h3 {
-    margin: 55px 0 70px 0;
+    margin: 55px 0 60px 0;
+    width: 300px;
+    
     font-size: 2rem;
     color: var(--grey);
 }
+
 .form-field {
-    margin: 20px 0 40px 0;
+    margin: 17px 0 20px 0;
 }
+
 label {
     display: block;
     margin-bottom: 14px;
     font-size: 1.2rem;
     color: var(--grey);
 }
+
 input {
     border: 0;
     display: block;
@@ -61,20 +69,34 @@ input {
     background-color: #e7e6e1;
     font-size: 0.9rem;
     border: none;
+    box-sizing: border-box;
 }
+
 input[type=text]:focus, input[type=password]:focus {
     outline: 1.9px solid #ece68a;
 }
+
 .form-btn {
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 1.2rem;
     height: 34px;
     color: var(--grey);
     background-color: #f7f6e7;
     outline: none;
 }
+
 .form-btn:hover {
     background-color: #f1ec9b;
+}
+
+.form-container p {
+    text-align: center;
+    width: 300px;
+}
+
+.form-container a {
+    text-decoration: none;
+    color: #b0a71d;
 }
 
 
@@ -102,10 +124,11 @@ input[type=text]:focus, input[type=password]:focus {
 
 .home-container h3:last-child {
     margin-left: auto;
+    color: #e41b18;
 }
 
 .home-container h3:last-child:hover {
-    color: #cb3737;
+    color: #f56161;
 }
 
 .force-container {
